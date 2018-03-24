@@ -1,0 +1,16 @@
+body {
+	background: black;
+}
+
+.fluid-container {
+	
+	height: 100%;
+}
+
+#yeahButton {
+	width: 66%;
+	height: auto;
+	margin: auto;
+	margin-top: 50%;
+	text-align: center;
+}
