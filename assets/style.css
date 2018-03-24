@@ -3,14 +3,21 @@ body {
 }
 
 .fluid-container {
-	
 	height: 100%;
 }
 
-#yeahButton {
-	width: 66%;
-	height: auto;
+#yeahButton{
+	display: block;
 	margin: auto;
-	margin-top: 50%;
-	text-align: center;
+	margin-top: 0%;
+	width: 85%;
+	height: auto;
+}
+
+@media screen and (max-width:768px){
+
+	#yeahButton {
+		margin: auto;
+		margin-top: 50%;
+	}
 }

@@ -1,6 +1,9 @@
 var yeah = new Audio("./assets/Yeah.wav");
 
 $("#yeahButton").on("click", function(){
-	console.log("clicked");
-	yeah.play();
-}); 
+	if (yeah.paused) {
+        yeah.play();
+    }else{
+        yeah.currentTime = 0
+    }
+});  
